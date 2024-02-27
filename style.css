@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main{
+    background-color: #ffc107;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.img-logo img{
+    width: 15%;
+}
+.sizes{
+   font-weight: lighter;
+}
+.main-1{
+    background-color: white;
+    padding: 15px;
+}
+.smg-nav{
+    display: flex;
+    justify-content: space-around;
+}
+.anc-main{
+    padding: 18px;
+}
+.anc-main a{
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.smg-logo p{
+    border: 1px solid black;
+    padding: 18px;
+    font-weight: bolder;
+    color: black;
+    border-radius: 30px 0px;
+    color: rgb(42, 42, 97);
+}
+#menu{
+    display: none;
+}
+.anc-main-2{
+    padding: 18px;
+}
+.anc-main-2 a{
+    padding: 0px 10px 0px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding-bottom: 15px;
+    text-align: center;
+}
+#search{
+    display: none;
+}
+
+@media screen and (max-width:1000px){
+    #menu{
+        display: block;
+        font-size: 38px;
+    }
+    .anc-main a{
+        display: none;
+    }
+    .anc-main-2 a{
+        display: none;
+    }
+    #search{
+        display: block;
+        font-size: 38px;
+    }
+    .smg-logo p{
+        padding: 20px;
+       
+    }
+}
+
+/* imges area started  */
+
+.images-sec{
+    display: flex;
+    justify-content: space-around;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.text h1{
+    font-size: 60px;
+    color: rgb(42, 42, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.img-hero img{
+    width: 100%;
+}
+
+@media screen and (max-width:1000px){
+    .images-sec{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* hero sec 2 area started  */
+.hero-2{
+    padding-top: 20px;
+}
+.mens-jeans{
+    background-color: #ffc107;
+    text-align: center;
+}
+.mens-jeans h1{
+    font-size: 50px;
+
+}
+
+.last-hero{
+    width: 50%;
+    align-items: end;
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:1200px){
+    .last-hero{
+        justify-content: center;
+        width: 100%;
+     
+    }
+}
+
+/* footer area  */
+
+
+
+.footer{
+    background-color: #ffc107;
+    padding: 10px;
+    
+}
+.foot-main{
+    display: flex;
+    justify-content: space-around;
+}
+.smg-foot h1{
+    font-size: 50px;
+}
+.foot-2 p{
+    font-size: 18px;
+}
+
+@media screen and (max-width:1200px){
+    .foot-main{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .smg-foot h1{
+        font-size: 60px;
+    }
+}
+
+/* shop page 2  */
+
+.shop-sec{
+    background-color: #ffc107;
+}
+.shop-1 h1{
+    text-align: center;
+}
+.shop-2 h1{
+    text-align: center;
+}
+.shop-2{
+    margin-top: 40px;
+}
+
+
+/* about sec  */
+
+.about-sec{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.about-we{
+    display: flex;
+    justify-content: center;
+}
+.about-team{
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+/* collection page  */
+.collection-center{
+    text-align: center;
+}
